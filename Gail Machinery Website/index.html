@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gail Machinery</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/slideshow.css">
+</head>
+ <style>
+   .logo{
+        max-width:1200px;
+    height: 300px;
+    object-fit: contain;
+    
+   }
+    .pics{
+      background-color:lightblue ;
+      width:100%;
+      object-fit: contain;
+      border-width: 1px;
+      border-style: solid;
+     border-color: gray;
+    }
+      .home-button{
+    background-color:transparent;
+ border-color:rgb(41,118,211);
+ border-style: solid;
+ border-width: 1px;
+ color:rgb(41,118,211);
+
+ border-radius: 2px;
+ cursor: pointer;
+ transition: background-color 1s,color 1s;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-right: 16px;
+ padding-left: 16px;
+  }
+    
+ </style>
+  <img class="logo" src="pics/profile picture.jpg" >
+
+<body >
+ <header class="header">
+  <div class="home-button">
+    <button>HOME</button>
+  </div> 
+  <div class="search-bar" >
+    <input type="text" placeholder="Search">
+  </div>
+    <div class="welcome-label">     
+      <h1>Welcome to Gail Machinery</h1>
+      </div>
+ </header>
+  <div class="image-slideshow" style="
+      flex-direction: row;
+     flex:1;">
+      <div class="image fade">
+      <img src="pics/roller pic 1.jpg" alt="roller-2">
+      </div>        
+      <div class="image fade">
+      <img src="pics/roller pic 2.jpg" alt="roller-3">
+      </div>        
+      <div class="image fade">
+      <img src="pics/roller pic 3.jpg" alt="roller-4">
+      </div>
+      <div class="image fade">
+      <img src="pics/roller pic 4.jpg" alt="Background-photo">
+      </div>
+      <div class="image fade">
+      <img src="pics/Background photo.jpg" alt="roller-2">
+      </div>
+      </div>
+      <script src="scripts/slideshow.js"></script>
+    
+  </div>
+  <div>
+    <h1 style="text-decoration: underline;">MACHINE CATEGORIES</h1>  
+   </div>
+   
+  <div style="
+  margin-top: 30px;
+  height: 250px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+">
+  <div class="pics">
+     Backhoe excavator
+     <img class="pics" src="pics/backhoe excavator 4.jpg" >
+  </div>
+  <div class="pics">
+     Drum roller
+     <img class="pics" src="pics/roller pic 1.jpg" >
+  </div>
+  
+  
+</body>
+</html>

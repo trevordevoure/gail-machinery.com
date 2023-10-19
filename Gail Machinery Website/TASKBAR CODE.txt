@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gail Machinery</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/slideshow.css">
+    <link rel="stylesheet" href="styles/general.css">
+</head>
+ 
+  <img class="logo" src="pics/profile picture.jpg" >
+
+<body >
+ <header class="header">
+  <div class="company-logo">
+    <img class="company-logo" src="pics/logo.jpg" >
+  </div>
+  <div class="welcome-label">     
+    <h1>Welcome to Gail Machinery</h1>
+   </div>
+  <div class="button">
+    <a class="home-link header-link" href="practice.html">
+      <span class="home-text"><button class="button" >HOME</button></span>
+     
+    </a>
+    
+  </div> 
+   
+   
+   <div class="supply-button">
+    <a class="supply-link header-link" href="supply.html">
+      <span class="supply-text">
+        <button class="button">
+          CATEGORIES
+        </button>
+      </span>
+     
+    </a>
+    
+  </div> 
+  
+  <div class="button">
+    <a class="about-link header-link" href="about.html">
+      <span><button class="button" >ABOUT US</button></span>
+     
+    </a>
+    
+  </div> 
+  <div class="contact-button">
+    <a class="contact-link header-link" href="contact.html">
+      <span class="contact-text"> <button class="button" >CONTACT US</button></span>
+     
+    </a>
+    
+  </div> 
+  
+ </header>
